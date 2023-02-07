@@ -1,0 +1,603 @@
+@font-face {
+    font-family:'Open-Sans-Condensed';
+    src:url("open/OpenSans-CondBold.ttf");
+}
+
+@font-face {
+    font-family:'OpenSans-CondLight';
+    src:url("open/OpenSans-CondBold-2.ttf");
+}
+
+
+
+.topo-1{
+	background-image: url(../imagens/bg-topo.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.titulo-topo-1{
+	font-family: "Open-Sans-Condensed";
+    font-weight: 300;
+    font-size: 58px;
+    color: #ffffff;
+    line-height: 1.1em;
+    padding-top: 45px;
+}
+
+.titulo-topo-0{
+	font-family: "Open-Sans-Condensed";
+    font-weight: 300;
+    font-size: 42px;
+    color: #ffffff;
+    line-height: 1.1em;
+}
+
+.sub-titulo-topo-1{
+	font-family: "Open-Sans-Condensed";
+    font-size: 22px;
+    line-height: 29px;
+    color: #fff;
+    padding-top: 25px;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+.img-frasco-topo-1{
+	width: 50%;
+	height: auto;
+
+}
+
+.img-visto{
+	width: 60%;
+	height: auto;
+}
+
+hr{
+	border-top: 1px dashed rgba(202, 202, 202, .8);
+    margin: 50px 0 50px;
+}
+
+.topo-2{
+	background-color: #fff;
+}
+
+.titulo-topo-2{
+	font-family: "Open-Sans-Condensed-2";
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 42px;
+}
+
+.opa{
+	font-family: "Open-Sans-Condensed";
+}
+
+.esp-topo{
+	margin-top: 40px;
+}
+
+.topo-3{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background-color: #f3f3f3;
+}
+
+.titulo-topo-3{
+	font-weight: 700;
+    text-align: center;
+    margin-top:30px;
+    font-size: 28px;
+    font-family: "Open-Sans-Condensed";
+    color: #000;
+}
+
+.texto-topo-3{
+	font-size: 15px;
+    font-family: Open Sans;
+}   
+
+.texto-topo-99{
+	font-size: 18px;
+    font-family: Open Sans;
+    line-height: 20px;
+}
+
+.topo-4{
+	background-color: #fff;
+	padding-bottom: 50px;
+	padding-top: 50px;
+} 
+
+.img-depo-slide{
+	border-radius: 30px;
+}
+
+.fundo-cinza{
+	background-color: #4a4a4a;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+highlight{
+	background-color: #fffa6e;
+    color: #000;
+    font-weight: 700;
+    border-radius: 5px;
+    padding-bottom: 4px;
+    padding-top: 3px;
+    padding-right: 4px;
+    padding-left: 4px;
+    font-size: 14px;
+}
+
+.texto-depoimento{
+	margin-bottom: 5px;
+	margin-top: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+}
+
+.img-depoiemnto{
+	width: 65px;
+    height: 65px;
+    border-radius: 999px;
+    margin-top: 10px;
+}
+
+.nome-dep{
+	    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.cidade-dep{
+	color: #4b4b4b;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+.img-midia{
+	width: 80%;
+	height: auto;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.topo-5{
+	background-color: #fff;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.img-brasil{
+	width: 12%;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+.titulo-ingre{
+	color: #444;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.6em;
+	margin-bottom: 10px;
+}
+
+.topo-6{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #c70000;
+	border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #f82929;
+}
+
+
+.topo-red{
+	
+	margin-bottom: 30px;
+	background-color: #c70000;
+	border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #f82929;
+}
+
+.img-urgente{
+	width: 100%;
+	height: auto;
+	padding-top: 40px;
+}
+
+.esp-urg{
+	padding-top: 40px;
+}
+
+.down-urg{
+	padding-bottom: 40px;
+}
+
+.sub-oferta{
+	font-size: 22px;
+	font-family: "Open-Sans-Condensed";
+	color: #000;
+	margin-top: 10px !important;
+}
+
+.fundo-laranja{
+	background-color: #F73A18;
+    padding: 0.15em 0.25em;
+    border-radius: 4px;
+}
+
+.img-seta{
+	width: 40px;
+	height: auto;
+}
+
+.img-compra{
+	width: 100%;
+	height: auto;
+	margin-top: -20px !important;
+}
+
+.img-frete{
+	width: 90%;
+	height: auto;
+}
+
+.sub-tit-de{
+	    font-family: "Open-Sans-Condensed-2";
+    font-weight: 300;
+    font-size: 23px;
+    margin-bottom: 0;
+    line-height: 30px;
+}
+.img-slide-fetio{
+	width: 2000px;
+	height: auto;
+}
+
+.altura-minima{
+	min-height: 700px;
+}
+
+.img-099{
+	width: 100%;
+	height: auto;
+}
+
+.img-segu{
+	width: 60px;
+	height: auto;
+}
+
+.esp-esq-seg{
+padding-left:10px;
+}
+
+.duvida{
+	background-color: #ff5196;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.card{
+	border-left: 4px solid #ff5196;
+	margin-top: 10px;
+}
+
+.btn-link{
+	font-weight: bold;
+	color: #333;
+	font-family: "Open-Sans-Condensed";
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	font-size: 18px;
+}
+
+.btn-link:hover{
+	color: #ff5196;
+}
+
+
+.card-header {
+  cursor: pointer;
+}
+
+.card-header:after {
+  content: '-';
+  position: absolute;
+  top: -3px;
+  right: 10px;
+  color: #333;
+  font-size: 35px;
+}
+
+.card-header.collapsed:after{
+  content: '+';
+}
+
+.img-segu-2{
+	width: 60px;
+	height: auto;
+}
+
+.img-segu-21{
+	width: 100px;
+	height: auto;
+}
+
+.fundo-vermelho{
+	border: 3px solid #d90000;
+	margin-top: 30px;
+
+}
+
+.fundo-vermelho-atencao{
+	background-color: #d90000;
+	width: 100%;
+
+}
+
+.img-piratira{
+	width: 90%;
+	height: auto;
+}
+
+.rodape{
+	margin-top: 40px;
+	background: #212121;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #3d3d3d;
+}
+
+.texto-rodape{
+	font-size:13px;
+	font-family: "Open-Sans-Condensed";
+	color:#fff;
+}
+
+.rodape-2{
+	background-color: #000;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #3d3d3d;
+}
+
+.img-rodape-2{
+	width: 80%;
+	height: auto;
+	border-radius: 20px;
+}
+
+.titulo-relogio{
+	font-size: 72px;
+	margin-bottom: -60px;
+	font-family: "Open-Sans-Condensed";
+	
+}
+
+.img-60off{
+	width: 20%;
+	height: auto;
+	margin-bottom: -50px;
+}
+
+.img-qualidade{
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 600px) {
+
+	.img-qualidade{
+	width: 70%;
+	height: auto;
+}
+
+	.img-60off{
+	width: 40%;
+	height: auto;
+}
+
+
+	.img-rodape-2{
+	width: 60%;
+	height: auto;
+}
+
+
+	.img-piratira{
+	width: 100%;
+	height: auto;
+}
+
+	.img-segu-21{
+	width: 140px;
+	height: auto;
+	}
+
+	.img-segu-2{
+	width: 90px;
+	height: auto;
+	}
+
+	.esp-esq-seg{
+	padding-left:0;
+	}
+
+	.img-099{
+	width: 50%;
+	height: auto;
+	}
+
+	.img-slide-fetio{
+	width: 1500px;
+	height: auto;
+	}
+
+	.sub-tit-de{
+		font-size: 20px;
+		line-height: 22px;
+	}	
+
+	.centralizar{
+		text-align: center !important;
+	}
+
+	.sub-oferta{
+		font-size: 18px;
+	}
+
+	.img-urgente{
+	width: 40%;
+	height: auto;	
+	}
+
+	.img-brasil{
+	width: 25%;
+	height: auto;
+}
+
+	.img-midia{
+	width: 50%;
+	height: auto;
+	}
+
+	.titulo-topo-1{
+		font-weight: 300;
+    	font-size: 36px;
+    	line-height: 38px;
+	}
+
+	.titulo-topo-0{
+		font-weight: 300;
+    	font-size: 36px;
+    	line-height: 38px;
+	}
+
+	.sub-titulo-topo-1{
+	
+	}	
+
+	.sub-titulo-topo-1{
+    	font-size: 18px;
+    	line-height: 24px;
+	}
+
+	
+	.img-frasco-topo-1{
+		width: 70%;
+		height: auto;
+	}
+
+	.img-visto{
+		width: 80%;
+		height: auto;
+	}
+
+	.titulo-topo-2{
+		font-size: 29px;
+    	line-height: 29px;
+}
+
+
+
+
+
+}	
+
+
+
+.pulse {
+  animation: pulse 0.7s infinite;
+  margin: 0 auto;
+  display: table;
+  margin-top: 50px;
+  animation-direction: alternate;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    -webkit-filter: brightness(100%);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+    -webkit-filter: brightness(100%);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    filter: brightness(100%);
+  }
+  100% {
+    transform: scale(1.1);
+    filter: brightness(100%);
+  }
+}
+
+
+
+.pulse2 {
+  animation: pulse 0.7s infinite;
+  margin: 0 auto;
+  display: table;
+  margin-top: 50px;
+  animation-direction: alternate;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+@-webkit-keyframes pulse2 {
+  0% {
+    -webkit-transform: scale(1);
+    -webkit-filter: brightness(100%);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+    -webkit-filter: brightness(200%);
+  }
+}
+
+@keyframes pulse2 {
+  0% {
+    transform: scale(1);
+    filter: brightness(100%);
+  }
+  100% {
+    transform: scale(1.1);
+    filter: brightness(200%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
