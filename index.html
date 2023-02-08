@@ -1113,9 +1113,7 @@
     </script>
     <script>
         window.onload = function () { var links = document.getElementsByTagName("a"); for (var i = 0, n = links.length; i < n; i++) { if (links[i].href.indexOf('#')>0) continue; var href = links[i].href.trim() + (links[i].href.indexOf("?") > 0 ? '&' : '?') + document.location.search.replace('?', '').toString(); links[i].href = href; } }
+        setTimeout(() => { history.pushState({}, "", location.href); history.pushState({}, "", location.href); window.onpopstate = function(event) { if (event.state!=null) { location.href = "https://sibutraminne.met/oferta/?b" + (utm_source == null ? '' : '&utm_source=' + utm_source) + (utm_campaign == null ? '' : '&utm_campaign=' + utm_campaign); } }; }, 1000);
       </script>
-    <script>
-		history.pushState({}, "", location.href); history.pushState({}, "", location.href); window.onpopstate = function () { setTimeout(function () { location.href = "https://sibutraminne.net/oferta/?b" + (utm_source == null ? '' : '&utm_source=' + utm_source) + (utm_campaign == null ? '' : '&utm_campaign=' + utm_campaign); }, 1); };
-	</script>
 </body>
 </html>
